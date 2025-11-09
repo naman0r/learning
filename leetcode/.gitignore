@@ -1,0 +1,5 @@
+*/venv/
+catchup/venv/
+
+.vscode/
+.cursor/

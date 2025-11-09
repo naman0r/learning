@@ -1,0 +1,21 @@
+# Core numerical and scientific libraries
+numpy==1.26.4
+pandas==2.2.2
+
+# Visualization libraries (useful for analyzing algorithm performance)
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Machine learning libraries (optional, for ML-related algorithms)
+scikit-learn==1.4.2
+
+# Jupyter notebooks (optional, for interactive coding)
+jupyter==1.0.0
+notebook==7.1.0
+
+# Additional utilities
+tqdm==4.66.2  # Progress bars for long-running operations
+pytest==8.0.0  # For testing your implementations
+
+# Performance analysis
+memory-profiler==0.61.0  # For memory usage analysis

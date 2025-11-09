@@ -1,0 +1,96 @@
+out/
+
+
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directories
+build/
+debug/
+release/
+bin/
+obj/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Make
+*.d
+
+# IDE/Editor files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+*.user
+*.vcxproj.filters
+*.vcxproj.user
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Core dumps
+core
+*.core
+
+# Valgrind
+*.valgrind
+
+# Profiling
+*.gprof
+*.gcov
+*.gcda
+*.gcno
+
+# Package managers
+conan.lock
+vcpkg_installed/
