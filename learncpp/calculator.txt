@@ -1,0 +1,40 @@
+#include<iostream>
+using namespace std;
+
+int main2() {
+    cout<<"This is a simple CLI calculator application!"<<endl;
+
+    int num1, num2;
+    float res;
+    char op;
+    cout<<"Enter First Number ";
+    cin>>num1;
+
+    cout<<"Enter your desired operation(-, +, *, /): ";
+    cin>>op;
+    cout<<"Enter Second Number ";
+    cin>>num2;
+
+    switch (op) {
+        case '-':
+            res=num1-num2;
+            cout<<"The result is "<<res<<endl;
+            break;
+        case '*':
+            res=num1*num2;
+            cout<<"The result is "<<res<<endl;
+            break;
+        case '/':
+            res=num1/num2;
+            cout<<"The result is "<<res<<endl;
+            break;
+        case '+':
+            res=num1+num2;
+            cout<<"The result is "<<res<<endl;
+            break;
+        default:
+            cout<<"Wrong input"<<endl;
+
+
+    }
+}
