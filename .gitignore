@@ -5,4 +5,7 @@ logseq/
 pytorch/data/
 *.ipynb_checkpoints/
 */*/.env/
-tests/my_agent/.env
+adk-tests/my_agent/.env
+adk-tests/my_agent/.adk
+adk-tests/*/.adk
+adk-tests/.adk
