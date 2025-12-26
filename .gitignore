@@ -2,3 +2,7 @@ logseq/
 *.vscode/
 *__pycache__/
 *.idea/
+pytorch/data/
+*.ipynb_checkpoints/
+*/*/.env/
+tests/my_agent/.env
